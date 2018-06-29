@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="controller/|config/|com/spitter/i18n/label/message/|com/spitter/i18n/validation/message/|com/spitter/excel/objectgenerate/|com/spitter/object/domain/" kind="src" path="WEB-INF/src"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/spring-aop-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/spring-aspects-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/spring-beans-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/spring-context-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/spring-context-support-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/spring-core-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/spring-web-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/spring-webmvc-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/javassist-3.16.1-GA.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jackson-annotations-2.8.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jackson-core-2.8.5.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jackson-databind-2.8.5.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/spring-jedis-1.0.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jedis-2.9.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/spring-data-redis-1.6.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jboss-logging-3.1.1.GA.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/spring-expression-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/spring-tx-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-pool2-2.5.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/classmate-0.8.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/slf4j-api-1.7.13.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jcl-over-slf4j-1.7.6.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/servlet-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/jasper.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/jsp-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/el-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/annotations-api.jar"/>
+	<classpathentry kind="output" path="WEB-INF/classes"/>
+</classpath>
